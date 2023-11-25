@@ -5,7 +5,7 @@
   "engines": {
     "node": "18.x"
   },
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node dist/server.js",
     "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache dist/",
